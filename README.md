@@ -4,6 +4,8 @@
 
 (Using _microdon_ can help keep your costs down.)
 
+(**microdon** is also the name of a various fishes.)
+
 ## Author
 
 Software **microdon** was written by [Charles Iliya Krempeaux](http://reiver.link)
