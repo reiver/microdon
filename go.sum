@@ -8,8 +8,8 @@ github.com/reiver/go-jsonint v0.0.0-20241119162208-a71145908f18 h1:aLDu6q/QjNRYx
 github.com/reiver/go-jsonint v0.0.0-20241119162208-a71145908f18/go.mod h1:1lW12ILqOxqtylQBMezy6oRuMQWlzFjeWF/Wbz/9U8g=
 github.com/reiver/go-lck v0.0.0-20240808133902-b56df221c39f h1:KBVWBoNIM8mHkUR3dP64hm2p2vxoD5xHZ6wUllCjFTc=
 github.com/reiver/go-lck v0.0.0-20240808133902-b56df221c39f/go.mod h1:PFseSi8S0CBkc+YB6jYWtogPk83LumclnYJZZBQJJhs=
-github.com/reiver/go-nodeinfo v0.0.0-20241126075408-be5f1cb49815 h1:9V1VHT3ayAU6EoU2/dYYrXqrLkwzP2J5lTHdN0CB1fk=
-github.com/reiver/go-nodeinfo v0.0.0-20241126075408-be5f1cb49815/go.mod h1:ynTNT66bFWekH085q36f2DMYC7ehZD9mFXHRqaDMcxs=
+github.com/reiver/go-nodeinfo v0.0.0-20241127132753-bb15178eff0f h1:M41u6z2z9NOKSZ+2/gkMC2L+AF2irYSwMHbnn+BzJT4=
+github.com/reiver/go-nodeinfo v0.0.0-20241127132753-bb15178eff0f/go.mod h1:ynTNT66bFWekH085q36f2DMYC7ehZD9mFXHRqaDMcxs=
 github.com/reiver/go-opt v0.0.0-20240809035328-1ff08dec9bc4 h1:KQ/PDBRaJb69hmMmOs/jM8q679y9v51lY7tjX2FUkog=
 github.com/reiver/go-opt v0.0.0-20240809035328-1ff08dec9bc4/go.mod h1:3lRqhDIwZ4OaMNN6Z5rmHCX8up18IkLGuw2rxP9GrYo=
 github.com/reiver/go-path v0.0.0-20240327181650-5f2ee05890d8 h1:8JFCnRV4GVjP8XUFuXvCH42o4fXHSkGcUkfsloB+LeY=
