@@ -13,7 +13,7 @@ import (
 const path string = webfinger.DefaultPath
 
 func init() {
-var webFingerHandler webfinger.Handler = webfinger.HandlerFunc(serveWebFinger)
+	var webFingerHandler webfinger.Handler = webfinger.HandlerFunc(serveWebFinger)
 
 	var handler http.Handler = webfinger.HTTPHandler(webFingerHandler)
 
