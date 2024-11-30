@@ -1,12 +1,15 @@
 package verboten
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/reiver/go-erorr"
+	"github.com/reiver/go-errhttp"
 	"github.com/reiver/go-opt"
 	"github.com/reiver/go-webfinger"
 
+	"github.com/reiver/microdon/arg"
 	"github.com/reiver/microdon/srv/http"
 )
 
@@ -25,6 +28,23 @@ func init() {
 }
 
 func serveWebFinger(resource string, rels ...string) ([]byte, error) {
+
+	var userHandle   string = arg.UserHandle
+	var instanceHost string = arg.InstanceHost
+
+	if "" == userHandle {
+		return nil, errhttp.Return(http.StatusNotFound)
+	}
+
+	if "" == instanceHost {
+		return nil, errhttp.Return(http.StatusNotFound)
+	}
+
+	var acctURI string = fmt.Sprintf("acct:%s@%s", userHandle, instanceHost)
+
+	if acctURI != resource {
+		return nil, errhttp.Return(http.StatusNotFound)
+	}
 
 	var response = webfinger.Response {
 		Subject: opt.Something(resource),

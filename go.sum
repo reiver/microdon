@@ -2,6 +2,8 @@ github.com/fatih/structs v1.1.0 h1:Q7juDM0QtcnhCpeyLGQKyg4TOIghuNXrkL32pHAUMxo=
 github.com/fatih/structs v1.1.0/go.mod h1:9NiDSp5zOcgEDl+j00MP/WkGVPOlPRLejGD8Ga6PJ7M=
 github.com/reiver/go-erorr v0.0.0-20240801233437-8cbde6d1fa3f h1:D1QSxKHm8U73XhjsW3SFLkT0zT5pKJi+1KGboMhY1Rk=
 github.com/reiver/go-erorr v0.0.0-20240801233437-8cbde6d1fa3f/go.mod h1:F0HbBf+Ak2ZlE8YkDW4Y+KxaUmT0KaaIJK6CXY3cJxE=
+github.com/reiver/go-errhttp v1.1.1-0.20240827033330-e4ea888843cc h1:mNFBGeNf9548+jBdaznubw4oyDC9hJOFTDajP72152Y=
+github.com/reiver/go-errhttp v1.1.1-0.20240827033330-e4ea888843cc/go.mod h1:J55rONfn+39379roH0KxMCGv6w9ifhZIoSKaVswRUDk=
 github.com/reiver/go-etag v0.0.0-20241130123934-1a98d29fda6e h1:2FJeuK9Uc6BGLnXz4QOyfPefILfXGoPxiyCpgwz0WMU=
 github.com/reiver/go-etag v0.0.0-20241130123934-1a98d29fda6e/go.mod h1:TGoPFV3b4+PE2rF27XiFZLu6dg4faIEx7AUITCKyj4c=
 github.com/reiver/go-json v0.0.0-20240809035039-2f83bc2e8c10 h1:LbFL8s+beVbEfnCymQAbRVtG8ihlL67XKvqM17EqGK0=
@@ -20,5 +22,5 @@ github.com/reiver/go-pathmatch v2.2.0+incompatible h1:hFg/Aa8G3+YSfCK1JSvQvY7mIa
 github.com/reiver/go-pathmatch v2.2.0+incompatible/go.mod h1:T2YWRaELNiTfGhs3tNIWwLGlWe2fGmuO8AVcjUPVgnE=
 github.com/reiver/go-pathmux v0.0.0-20240229164030-35fcff1c6e8d h1:rIsrZjZ9KbOhDud8wpzKLkwzphXdUOvZGg/h25c/Ul0=
 github.com/reiver/go-pathmux v0.0.0-20240229164030-35fcff1c6e8d/go.mod h1:b9ed6nFkWn5atpsqz1SHrqXQrde91TBL4jjX3pGK1Zw=
-github.com/reiver/go-webfinger v0.0.0-20241130124446-456ecbeda70b h1:cp/J2KDYlM11VFtgLPB4T6R/oeGC8Cs1aYhJNFYRRYA=
-github.com/reiver/go-webfinger v0.0.0-20241130124446-456ecbeda70b/go.mod h1:kQfguORqVRn77oI/ADCuye8UrDIb4ykJJPi8LxPMVFw=
+github.com/reiver/go-webfinger v0.0.0-20241130141936-61b3544fff8c h1:FOXtOY11Ze80nQAnxo/Oh5arPQRwe3Wk64hgsauggJ0=
+github.com/reiver/go-webfinger v0.0.0-20241130141936-61b3544fff8c/go.mod h1:kQfguORqVRn77oI/ADCuye8UrDIb4ykJJPi8LxPMVFw=
