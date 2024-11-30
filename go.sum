@@ -18,3 +18,5 @@ github.com/reiver/go-pathmatch v2.2.0+incompatible h1:hFg/Aa8G3+YSfCK1JSvQvY7mIa
 github.com/reiver/go-pathmatch v2.2.0+incompatible/go.mod h1:T2YWRaELNiTfGhs3tNIWwLGlWe2fGmuO8AVcjUPVgnE=
 github.com/reiver/go-pathmux v0.0.0-20240229164030-35fcff1c6e8d h1:rIsrZjZ9KbOhDud8wpzKLkwzphXdUOvZGg/h25c/Ul0=
 github.com/reiver/go-pathmux v0.0.0-20240229164030-35fcff1c6e8d/go.mod h1:b9ed6nFkWn5atpsqz1SHrqXQrde91TBL4jjX3pGK1Zw=
+github.com/reiver/go-webfinger v0.0.0-20241130075726-630b9ddd2755 h1:nRJPzOMlQ5Y8ASJn+rgyPWtK7iNgaJ5SVMQvzI8JIA8=
+github.com/reiver/go-webfinger v0.0.0-20241130075726-630b9ddd2755/go.mod h1:L18vUE+SB7h9mk2EluClSY+DcZHWXnTpXYvudn4qFPk=

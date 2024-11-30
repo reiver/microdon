@@ -7,6 +7,7 @@ require (
 	github.com/reiver/go-nodeinfo v0.0.0-20241127132753-bb15178eff0f
 	github.com/reiver/go-opt v0.0.0-20240809035328-1ff08dec9bc4
 	github.com/reiver/go-pathmux v0.0.0-20240229164030-35fcff1c6e8d
+	github.com/reiver/go-webfinger v0.0.0-20241130075726-630b9ddd2755
 )
 
 require (
