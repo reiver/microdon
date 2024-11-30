@@ -21,8 +21,7 @@ var paths = []string{
 }
 
 var handler http.Handler = nodeinfo.NodeInfo{
-//@TODO
-//	Instance:
+	Instance:  microdonNodeInfo.Instance,
 	Software:  microdonNodeInfo.Software2Dot1,
 	Protocols: microdonNodeInfo.Protocols,
 	Services: nodeinfo.Services{
