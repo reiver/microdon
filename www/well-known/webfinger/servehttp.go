@@ -1,7 +1,6 @@
 package verboten
 
 import (
-	"encoding/json"
 	"net/http"
 
 	"github.com/reiver/go-erorr"
@@ -25,16 +24,11 @@ var webFingerHandler webfinger.Handler = webfinger.HandlerFunc(serveWebFinger)
 	}
 }
 
-func serveWebFinger(responseWriter http.ResponseWriter, resource string, rels ...string) {
-
-			
-//@TODO
-			
+func serveWebFinger(resource string, rels ...string) ([]byte, error) {
 
 	var response = webfinger.Response {
 		Subject: opt.Something(resource),
 	}
 
-	err := json.NewEncoder(responseWriter).Encode(response)
-	_ = err
+	return response.MarshalJSON()
 }
