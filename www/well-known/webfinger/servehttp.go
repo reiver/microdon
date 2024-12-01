@@ -46,9 +46,27 @@ func serveWebFinger(resource string, rels ...string) ([]byte, error) {
 		return nil, errhttp.Return(http.StatusNotFound)
 	}
 
-	var response = webfinger.Response {
-		Subject: opt.Something(resource),
-	}
+	var profileLink string = fmt.Sprintf("https://%s/", instanceHost)
 
-	return response.MarshalJSON()
+	var activityLink string = fmt.Sprintf("%s-/rel/self.activity")
+
+	{
+		var response = webfinger.Response {
+			Subject: opt.Something(resource),
+			Links: []webfinger.Link{
+				webfinger.Link{
+					Rel: opt.Something("http://webfinger.net/rel/profile-page"),
+					Type: opt.Something("text/html"),
+					HRef: opt.Something(profileLink),
+				},
+				webfinger.Link{
+					Rel: opt.Something("self"),
+					Type: opt.Something("application/activity+json"),
+					HRef: opt.Something(activityLink),
+				},
+			},
+		}
+
+		return response.MarshalJSON()
+	}
 }
