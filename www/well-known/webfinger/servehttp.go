@@ -48,7 +48,7 @@ func serveWebFinger(resource string, rels ...string) ([]byte, error) {
 
 	var profileLink string = fmt.Sprintf("https://%s/", instanceHost)
 
-	var activityLink string = fmt.Sprintf("%s-/rel/self.activity")
+	var activityLink string = fmt.Sprintf("%s-/rel/self.activity", profileLink)
 
 	{
 		var response = webfinger.Response {
