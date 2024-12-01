@@ -6,16 +6,16 @@ import (
 
 var (
 	InstanceDescription string
-	InstanceName        string
 	InstanceHost        string
+	InstanceName        string
 
 	UserHandle  string
 )
 
 func init() {
 	InstanceDescription = os.Getenv("MICRODON_INSTANCE_DESCRIPTION")
-	InstanceName        = os.Getenv("MICRODON_INSTANCE_NAME")
 	InstanceHost        = os.Getenv("MICRODON_INSTANCE_HOST")
+	InstanceName        = os.Getenv("MICRODON_INSTANCE_NAME")
 
 	UserHandle  = os.Getenv("MICRODON_USER_HANDLE")
 }
