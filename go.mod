@@ -1,10 +1,11 @@
 module github.com/reiver/microdon
 
-go 1.22.4
+go 1.24.3
 
 require (
 	github.com/reiver/go-erorr v0.0.0-20240801233437-8cbde6d1fa3f
 	github.com/reiver/go-errhttp v1.1.1-0.20240827033330-e4ea888843cc
+	github.com/reiver/go-log v1.1.1-0.20250112073952-9561cd42d7ec
 	github.com/reiver/go-nodeinfo v0.0.0-20241127132753-bb15178eff0f
 	github.com/reiver/go-opt v0.0.0-20240809035328-1ff08dec9bc4
 	github.com/reiver/go-pathmux v0.0.0-20240229164030-35fcff1c6e8d
