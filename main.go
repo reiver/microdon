@@ -1,16 +1,19 @@
 package main
 
 import (
-	"fmt"
 	"net/http"
 	"os"
 
 	"github.com/reiver/microdon/srv/http"
+	"github.com/reiver/microdon/srv/log"
 )
 
 func main() {
 
-	fmt.Println("microdon 🐟")
+	log := logsrv.Prefix("main").Begin()
+	defer log.End()
+
+	log.Inform("microdon 🐟")
 
 	var tcpPort uint16
 	{
@@ -18,7 +21,7 @@ func main() {
 
 		tcpPort, err = tcpport()
 		if nil != err {
-			fmt.Fprintf(os.Stderr, "ERROR: problem getting TCP-port (used by the web-server) from environent-variable 'PORT' (which should be a 16-bit unsigned number): %s\n", err)
+			log.Errorf("ERROR: problem getting TCP-port (used by the web-server) from environent-variable 'PORT' (which should be a 16-bit unsigned number): %s\n", err)
 			os.Exit(1)
 			return
 		}
